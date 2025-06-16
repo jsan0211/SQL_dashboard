@@ -1,7 +1,13 @@
 from django.shortcuts import render
-from django.http import HttpResponse
+from django.http import JsonResponse
 
 def home(request):
-    return HttpResponse("<h1>Hello from your Dashboard App!</h1>")
+    return render(request, 'dashboard/index.html')  # ✅ not HttpResponse!
 
-# Create your views here.
+def sample_data(request):
+    data = [
+        {"id": 1, "name": "Alpha", "value": 100},
+        {"id": 2, "name": "Beta", "value": 200},
+        {"id": 3, "name": "Gamma", "value": 300},
+    ]
+    return JsonResponse(data, safe=False)
