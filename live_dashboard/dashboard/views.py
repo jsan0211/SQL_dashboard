@@ -1,13 +1,9 @@
-from django.shortcuts import render
+from django.db import connection
 from django.http import JsonResponse
 
-def home(request):
-    return render(request, 'dashboard/index.html')  # ✅ not HttpResponse!
-
 def sample_data(request):
-    data = [
-        {"id": 1, "name": "Alpha", "value": 100},
-        {"id": 2, "name": "Beta", "value": 200},
-        {"id": 3, "name": "Gamma", "value": 300},
-    ]
-    return JsonResponse(data, safe=False)
+    with connection.cursor() as cursor:
+        cursor.execute("SELECT TOP 10 id, name, value FROM YourTable")
+        columns = [col[0] for col in cursor.description]
+        rows = [dict(zip(columns, row)) for row in cursor.fetchall()]
+    return JsonResponse(rows, safe=False)
