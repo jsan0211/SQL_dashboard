@@ -1,0 +1,289 @@
+Watching for file changes with StatReloader
+Internal Server Error: /data/
+Traceback (most recent call last):
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\db\backends\utils.py", line 87, in _execute
+    return self.cursor.execute(sql)
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 324, in execute
+    return super().execute(query)
+sqlite3.OperationalError: near "10": syntax error
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\live_dashboard\dashboard\views.py", line 24, in sample_data
+    cursor.execute("SELECT TOP 10 id, name, value FROM YourTable")
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\db\backends\utils.py", line 87, in _execute
+    return self.cursor.execute(sql)
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 324, in execute
+    return super().execute(query)
+django.db.utils.OperationalError: near "10": syntax error
+[17/Jun/2025 14:20:11] "GET /data/ HTTP/1.1" 500 113959
+[17/Jun/2025 14:20:25] "GET / HTTP/1.1" 200 983
+Internal Server Error: /data/
+Traceback (most recent call last):
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\db\backends\utils.py", line 87, in _execute
+    return self.cursor.execute(sql)
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 324, in execute
+    return super().execute(query)
+sqlite3.OperationalError: near "10": syntax error
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\live_dashboard\dashboard\views.py", line 24, in sample_data
+    cursor.execute("SELECT TOP 10 id, name, value FROM YourTable")
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\db\backends\utils.py", line 87, in _execute
+    return self.cursor.execute(sql)
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 324, in execute
+    return super().execute(query)
+django.db.utils.OperationalError: near "10": syntax error
+[17/Jun/2025 14:20:25] "GET /data/ HTTP/1.1" 500 113959
+Not Found: /favicon.ico
+[17/Jun/2025 14:20:25] "GET /favicon.ico HTTP/1.1" 404 2596
+Internal Server Error: /data/
+Traceback (most recent call last):
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\db\backends\utils.py", line 87, in _execute
+    return self.cursor.execute(sql)
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 324, in execute
+    return super().execute(query)
+sqlite3.OperationalError: near "10": syntax error
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\live_dashboard\dashboard\views.py", line 24, in sample_data
+    cursor.execute("SELECT TOP 10 id, name, value FROM YourTable")
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\db\backends\utils.py", line 87, in _execute
+    return self.cursor.execute(sql)
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 324, in execute
+    return super().execute(query)
+django.db.utils.OperationalError: near "10": syntax error
+[17/Jun/2025 14:21:25] "GET /data/ HTTP/1.1" 500 113959
+Internal Server Error: /data/
+Traceback (most recent call last):
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\db\backends\utils.py", line 87, in _execute
+    return self.cursor.execute(sql)
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 324, in execute
+    return super().execute(query)
+sqlite3.OperationalError: near "10": syntax error
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\live_dashboard\dashboard\views.py", line 24, in sample_data
+    cursor.execute("SELECT TOP 10 id, name, value FROM YourTable")
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\db\backends\utils.py", line 87, in _execute
+    return self.cursor.execute(sql)
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 324, in execute
+    return super().execute(query)
+django.db.utils.OperationalError: near "10": syntax error
+[17/Jun/2025 14:22:25] "GET /data/ HTTP/1.1" 500 113959
+Internal Server Error: /data/
+Traceback (most recent call last):
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\db\backends\utils.py", line 87, in _execute
+    return self.cursor.execute(sql)
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 324, in execute
+    return super().execute(query)
+sqlite3.OperationalError: near "10": syntax error
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\live_dashboard\dashboard\views.py", line 24, in sample_data
+    cursor.execute("SELECT TOP 10 id, name, value FROM YourTable")
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\db\backends\utils.py", line 87, in _execute
+    return self.cursor.execute(sql)
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 324, in execute
+    return super().execute(query)
+django.db.utils.OperationalError: near "10": syntax error
+[17/Jun/2025 14:22:59] "GET /data/ HTTP/1.1" 500 114219
+C:\Users\JSANTIAGO\Projects\dashboard_project\live_dashboard\dashboard\views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 17, 2025 - 14:19:18
+Django version 4.2.23, using settings 'live_dashboard.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+Watching for file changes with StatReloader
+Internal Server Error: /data/
+Traceback (most recent call last):
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\db\backends\utils.py", line 87, in _execute
+    return self.cursor.execute(sql)
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 324, in execute
+    return super().execute(query)
+sqlite3.OperationalError: no such table: YourTable
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\live_dashboard\dashboard\views.py", line 27, in sample_data
+    cursor.execute("SELECT id, name, value FROM YourTable LIMIT 10")
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\db\backends\utils.py", line 87, in _execute
+    return self.cursor.execute(sql)
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 324, in execute
+    return super().execute(query)
+django.db.utils.OperationalError: no such table: YourTable
+[17/Jun/2025 14:26:14] "GET /data/ HTTP/1.1" 500 114431
+Internal Server Error: /data/
+Traceback (most recent call last):
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\db\backends\utils.py", line 87, in _execute
+    return self.cursor.execute(sql)
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 324, in execute
+    return super().execute(query)
+sqlite3.OperationalError: no such table: YourTable
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\live_dashboard\dashboard\views.py", line 27, in sample_data
+    cursor.execute("SELECT id, name, value FROM YourTable LIMIT 10")
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\db\backends\utils.py", line 87, in _execute
+    return self.cursor.execute(sql)
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 324, in execute
+    return super().execute(query)
+django.db.utils.OperationalError: no such table: YourTable
+[17/Jun/2025 14:26:17] "GET /data/ HTTP/1.1" 500 114431
+[17/Jun/2025 14:26:43] "GET /debug/ HTTP/1.1" 200 188
+Internal Server Error: /data/
+Traceback (most recent call last):
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\db\backends\utils.py", line 87, in _execute
+    return self.cursor.execute(sql)
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 324, in execute
+    return super().execute(query)
+sqlite3.OperationalError: no such table: YourTable
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\live_dashboard\dashboard\views.py", line 27, in sample_data
+    cursor.execute("SELECT id, name, value FROM YourTable LIMIT 10")
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\db\backends\utils.py", line 87, in _execute
+    return self.cursor.execute(sql)
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 324, in execute
+    return super().execute(query)
+django.db.utils.OperationalError: no such table: YourTable
+[17/Jun/2025 14:33:58] "GET /data/ HTTP/1.1" 500 114294
+C:\Users\JSANTIAGO\Projects\dashboard_project\live_dashboard\dashboard\views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 17, 2025 - 14:25:55
+Django version 4.2.23, using settings 'live_dashboard.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+Watching for file changes with StatReloader
