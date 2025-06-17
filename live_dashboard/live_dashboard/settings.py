@@ -10,13 +10,14 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.2/ref/settings/
 """
 
-from pathlib import Path
 import os
 from dotenv import load_dotenv
+from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
+
+load_dotenv()
 BASE_DIR = Path(__file__).resolve().parent.parent
-load_dotenv(os.path.join(BASE_DIR, '.env'))
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
@@ -74,22 +75,31 @@ TEMPLATES = [
 WSGI_APPLICATION = 'live_dashboard.wsgi.application'
 
 
-# Database
-# https://docs.djangoproject.com/en/4.2/ref/settings/#databases
+# Pick from: 'sqlite' or 'mssql'
+DATABASE_TYPE = os.getenv('DATABASE_TYPE', 'sqlite')
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'mssql',
-        'NAME': 'YourDatabaseName',
-        'USER': 'YourUsername',
-        'PASSWORD': 'YourPassword',
-        'HOST': 'YourServerHostnameOrIP',
-        'PORT': '',  # Default port is fine
-        'OPTIONS': {
-            'driver': 'ODBC Driver 17 for SQL Server',
-        },
+if DATABASE_TYPE == 'mssql':
+    DATABASES = {
+        'default': {
+            'ENGINE': 'sql_server.pyodbc',
+            'NAME': os.getenv('DB_NAME'),
+            'USER': os.getenv('DB_USER'),
+            'PASSWORD': os.getenv('DB_PASSWORD'),
+            'HOST': os.getenv('DB_HOST'),
+            'PORT': '',
+            'OPTIONS': {
+                'driver': os.getenv('DB_DRIVER', 'ODBC Driver 17 for SQL Server'),
+            },
+        }
     }
-}
+else:
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': BASE_DIR / 'db.sqlite3',
+        }
+    }
+
 
 
 
