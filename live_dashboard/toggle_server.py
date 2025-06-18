@@ -40,7 +40,7 @@ def start():
     print("Starting server...")
     with open(LOG_FILE, 'a') as log_file:
         process = subprocess.Popen(
-            ['python', 'manage.py', 'runserver'],
+            [sys.executable, 'manage.py', 'runserver'], # sys.exe returns full path to the python interpreter that is currently running your script
             stdout=log_file,
             stderr=log_file,
             creationflags=subprocess.CREATE_NEW_PROCESS_GROUP  # Windows only
@@ -49,8 +49,8 @@ def start():
             f.write(str(process.pid))
 
         print(f"Server started with PID {process.pid}.")
-        time.sleep(2)  # Give it a moment to start
-        webbrowser.open(LOCAL_URL)  # 🚀 Open browser to app
+        time.sleep(2)
+        webbrowser.open(LOCAL_URL)
 
 def stop():
     """Stop the Django server using the stored PID."""

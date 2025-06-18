@@ -19,18 +19,26 @@ def debug_view(request):
         "env_secret_key_loaded": os.getenv('SECRET_KEY') is not None
     })
 
-
-
 def home(request):
     return render(request, 'dashboard/index.html')
-
 
 def sample_data(request):
     with connection.cursor() as cursor:
         if settings.DATABASES['default']['ENGINE'] == 'sql_server.pyodbc':
-            cursor.execute("SELECT TOP 10 id, name, value FROM YourTable")
+            cursor.execute("SELECT TOP 10 id, first_name, last_name, date_of_birth, program FROM clients")
         else:
-            cursor.execute("SELECT id, name, value FROM YourTable LIMIT 10")
+            cursor.execute("SELECT id, first_name, last_name, date_of_birth, program FROM clients LIMIT 10")
+        columns = [col[0] for col in cursor.description]
+        rows = [dict(zip(columns, row)) for row in cursor.fetchall()]
+    return JsonResponse(rows, safe=False)
+
+def gpd_clients(request):
+    with connection.cursor() as cursor:
+        cursor.execute("""
+            SELECT id, first_name, last_name, program
+            FROM clients
+            WHERE program = 'GPD'
+        """)
         columns = [col[0] for col in cursor.description]
         rows = [dict(zip(columns, row)) for row in cursor.fetchall()]
     return JsonResponse(rows, safe=False)
