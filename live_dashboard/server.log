@@ -615,3 +615,464 @@ Watching for file changes with StatReloader
 [18/Jun/2025 15:29:10] "GET /data/ HTTP/1.1" 200 1060
 [18/Jun/2025 15:30:10] "GET /data/ HTTP/1.1" 200 1060
 [18/Jun/2025 15:31:10] "GET /data/ HTTP/1.1" 200 1060
+Watching for file changes with StatReloader
+[18/Jun/2025 16:39:31] "GET / HTTP/1.1" 200 983
+[18/Jun/2025 16:39:31] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 16:40:07] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 16:40:31] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 16:41:08] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 16:41:31] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 16:42:00] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 16:42:31] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 16:43:01] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 16:43:31] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 16:44:02] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 16:44:31] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 16:45:04] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 16:45:31] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 16:46:04] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 16:46:31] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 16:47:05] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 16:47:31] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 16:48:06] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 16:48:31] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 16:49:07] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 16:49:31] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 16:50:08] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 16:50:31] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 16:51:09] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 16:51:31] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 16:52:10] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 16:52:31] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 16:53:10] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 16:53:31] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 16:54:10] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 16:54:31] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 16:55:10] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 16:55:31] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 16:56:10] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 16:56:31] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 16:57:10] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 16:57:31] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 16:58:10] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 16:58:31] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 16:59:10] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 16:59:31] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 17:00:10] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 17:00:31] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 17:01:10] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 17:01:31] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 17:02:10] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 17:02:31] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 17:03:10] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 17:03:31] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 17:04:10] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 17:04:31] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 17:05:10] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 17:05:31] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 17:06:10] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 17:06:31] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 17:07:10] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 17:07:31] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 17:08:10] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 17:08:31] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 17:09:10] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 17:09:31] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 17:10:10] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 17:10:31] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 17:11:10] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 17:11:31] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 17:12:10] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 17:12:31] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 17:13:10] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 17:13:31] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 17:14:10] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 17:14:31] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 17:15:10] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 17:15:31] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 17:16:10] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 17:16:31] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 17:17:10] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 17:17:31] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 17:18:10] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 17:18:31] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 17:19:10] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 17:19:31] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 17:20:10] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 17:20:31] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 17:21:10] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 17:21:31] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 17:22:10] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 17:22:31] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 17:23:10] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 17:23:31] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 17:24:10] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 17:24:31] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 17:25:10] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 17:25:31] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 17:26:10] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 17:26:31] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 17:27:10] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 17:27:31] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 17:28:10] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 17:28:31] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 17:29:10] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 17:29:31] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 17:30:10] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 17:30:31] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 17:31:10] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 17:31:31] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 17:32:10] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 17:32:31] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 17:33:10] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 17:33:31] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 17:34:10] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 17:34:32] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 17:35:10] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 17:35:33] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 17:36:10] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 17:36:34] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 17:37:10] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 17:37:35] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 17:38:10] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 17:38:36] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 17:39:10] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 17:39:37] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 17:40:10] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 17:40:38] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 17:41:10] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 17:41:39] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 17:42:10] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 17:42:40] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 17:43:41] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 17:44:42] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 19:19:59] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 19:20:31] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 19:21:31] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 19:22:31] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 19:23:31] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 19:24:31] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 19:25:31] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 19:26:31] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 19:27:31] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 19:28:31] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 19:29:31] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 19:30:31] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 19:31:31] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 19:32:31] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 19:33:31] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 19:34:31] "GET /data/ HTTP/1.1" 200 1060
+[18/Jun/2025 19:35:31] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 08:53:28] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 08:53:32] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 08:54:43] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 09:00:45] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 09:01:31] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 09:02:31] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 09:29:31] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 09:41:50] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 09:44:44] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 09:45:31] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 09:46:31] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 09:47:31] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 09:48:31] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 09:49:31] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 09:50:31] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 09:51:31] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 09:52:31] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 09:53:32] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 09:54:33] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 09:55:34] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 09:56:31] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 09:57:31] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 09:57:40] "GET / HTTP/1.1" 200 983
+[20/Jun/2025 09:57:40] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 09:58:40] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 09:59:40] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 10:00:40] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 10:01:40] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 10:02:40] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 10:03:40] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 10:04:40] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 10:05:41] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 10:06:42] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 10:07:43] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 10:08:44] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 10:09:45] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 10:10:46] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 10:11:47] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 10:12:48] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 10:13:49] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 10:14:50] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 10:15:51] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 10:16:52] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 10:17:53] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 10:18:54] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 10:19:55] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 10:20:56] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 10:21:57] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 10:22:58] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 10:23:59] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 10:25:00] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 10:26:01] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 10:27:02] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 10:28:03] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 10:29:04] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 10:30:05] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 10:31:06] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 10:32:07] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 10:33:08] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 10:34:09] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 10:35:09] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 10:36:09] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 10:37:09] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 10:38:09] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 10:39:09] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 10:40:09] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 10:41:09] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 10:42:09] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 10:43:09] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 10:44:09] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 10:45:09] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 10:46:09] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 10:47:09] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 10:48:09] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 10:49:09] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 10:50:09] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 10:51:09] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 10:52:09] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 10:53:09] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 10:54:09] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 10:55:09] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 10:56:09] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 10:57:09] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 10:58:09] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 10:59:09] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 11:00:09] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 11:01:09] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 11:02:09] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 11:03:09] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 11:05:04] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 11:05:40] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 11:06:40] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 11:07:40] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 11:08:40] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 11:09:39] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 11:10:39] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 11:11:39] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 11:12:40] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 11:13:40] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 11:14:39] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 11:15:39] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 11:16:39] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 11:17:40] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 11:18:40] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 11:19:39] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 11:20:40] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 11:21:40] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 11:22:40] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 11:23:40] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 11:24:40] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 11:25:41] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 11:26:42] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 11:27:43] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 11:28:44] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 11:29:45] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 11:30:46] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 11:31:47] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 11:32:48] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 11:33:49] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 11:34:50] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 11:35:51] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 11:36:40] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 11:37:41] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 11:38:42] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 11:39:43] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 11:40:44] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 11:41:45] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 11:42:46] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 11:43:47] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 11:44:47] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 11:45:48] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 11:46:49] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 11:47:50] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 11:48:39] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 11:49:39] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 11:50:39] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 11:51:40] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 11:52:41] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 11:53:42] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 11:54:43] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 11:55:44] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 11:56:45] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 11:57:46] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 11:58:47] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 11:59:48] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 12:00:49] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 12:01:50] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 12:02:51] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 12:03:52] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 12:04:53] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 12:05:54] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 12:06:55] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 12:07:56] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 12:08:57] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 12:09:58] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 12:10:59] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 12:12:00] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 12:13:01] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 12:14:02] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 12:15:03] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 12:16:04] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 12:17:05] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 12:18:06] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 12:19:07] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 12:20:08] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 12:21:08] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 12:22:08] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 12:22:39] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 12:23:39] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 12:24:39] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 12:25:39] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 12:26:39] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 12:27:39] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 12:28:39] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 12:29:39] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 12:30:39] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 12:31:39] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 12:32:39] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 12:33:39] "GET /data/ HTTP/1.1" 200 1060
+C:\Users\JSANTIAGO\Projects\dashboard_project\live_dashboard\dashboard\urls.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 18, 2025 - 16:39:31
+Django version 4.2.23, using settings 'live_dashboard.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+Watching for file changes with StatReloader
+[20/Jun/2025 12:34:39] "GET /data/ HTTP/1.1" 200 1060
+Bad Request: /runquery/
+[20/Jun/2025 12:34:54] "GET /runquery/ HTTP/1.1" 400 31
+[20/Jun/2025 12:35:39] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 12:35:41] "POST /runquery/ HTTP/1.1" 200 616
+[20/Jun/2025 12:36:40] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 12:37:41] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 12:38:42] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 12:39:43] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 12:40:44] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 12:41:45] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 12:42:46] "GET /data/ HTTP/1.1" 200 1060
+Watching for file changes with StatReloader
+[20/Jun/2025 12:43:40] "GET / HTTP/1.1" 200 1466
+[20/Jun/2025 12:43:47] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 12:44:48] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 12:45:49] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 12:46:50] "GET /data/ HTTP/1.1" 200 1060
+[20/Jun/2025 12:47:51] "GET /data/ HTTP/1.1" 200 1060
+C:\Users\JSANTIAGO\Projects\dashboard_project\live_dashboard\dashboard\views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 20, 2025 - 12:43:39
+Django version 4.2.23, using settings 'live_dashboard.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\utils\autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\core\management\commands\runserver.py", line 133, in inner_run
+    self.check(display_num_errors=True)
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\core\management\base.py", line 485, in check
+    all_issues = checks.run_checks(
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\core\checks\registry.py", line 88, in run_checks
+    new_errors = check(app_configs=app_configs, databases=databases)
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\core\checks\urls.py", line 14, in check_url_config
+    return check_resolver(resolver)
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\core\checks\urls.py", line 24, in check_resolver
+    return check_method()
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\urls\resolvers.py", line 494, in check
+    for pattern in self.url_patterns:
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\urls\resolvers.py", line 715, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\urls\resolvers.py", line 708, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\live_dashboard\live_dashboard\urls.py", line 22, in <module>
+    path('', include('dashboard.urls')),  # \U0001f448 connect your app’s URLs
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\venv\lib\site-packages\django\urls\conf.py", line 38, in include
+    urlconf_module = import_module(urlconf_module)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "C:\Users\JSANTIAGO\Projects\dashboard_project\live_dashboard\dashboard\urls.py", line 9, in <module>
+    path('runquery/', views.run_query, name='run_query'),
+AttributeError: module 'dashboard.views' has no attribute 'run_query'
+C:\Users\JSANTIAGO\Projects\dashboard_project\live_dashboard\dashboard\views.py changed, reloading.
+Performing system checks...
+
+Watching for file changes with StatReloader
+C:\Users\JSANTIAGO\Projects\dashboard_project\live_dashboard\dashboard\urls.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 20, 2025 - 12:51:13
+Django version 4.2.23, using settings 'live_dashboard.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+Watching for file changes with StatReloader
+Bad Request: /runquery/
+[20/Jun/2025 12:51:25] "GET /runquery/ HTTP/1.1" 400 28
+[20/Jun/2025 12:51:37] "GET / HTTP/1.1" 200 1466
+Bad Request: /runquery/
+[20/Jun/2025 12:51:45] "GET /runquery/ HTTP/1.1" 400 28
+[20/Jun/2025 12:52:52] "POST /runquery/ HTTP/1.1" 200 616
+C:\Users\JSANTIAGO\Projects\dashboard_project\live_dashboard\dashboard\views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 20, 2025 - 12:51:16
+Django version 4.2.23, using settings 'live_dashboard.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+Watching for file changes with StatReloader
+C:\Users\JSANTIAGO\Projects\dashboard_project\live_dashboard\dashboard\views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 20, 2025 - 12:59:43
+Django version 4.2.23, using settings 'live_dashboard.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+Watching for file changes with StatReloader
+[20/Jun/2025 13:05:29] "GET / HTTP/1.1" 200 1466
+[20/Jun/2025 13:30:01] "POST /runquery/ HTTP/1.1" 200 1034
+[20/Jun/2025 13:33:30] "POST /runquery/ HTTP/1.1" 200 85
+[20/Jun/2025 13:35:07] "POST /runquery/ HTTP/1.1" 200 2510

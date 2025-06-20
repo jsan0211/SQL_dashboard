@@ -1,10 +1,13 @@
 from django.db import connection
 from django.shortcuts import render
 from django.conf import settings
-from django.http import JsonResponse
+from django.views.decorators.csrf import csrf_exempt
+from django.http import JsonResponse, HttpResponseBadRequest
+from django.http import HttpResponseForbidden
+import json
 import os
 
-from django.http import HttpResponseForbidden
+
 
 def debug_view(request):
     if not settings.DEBUG:
@@ -41,4 +44,36 @@ def gpd_clients(request):
         """)
         columns = [col[0] for col in cursor.description]
         rows = [dict(zip(columns, row)) for row in cursor.fetchall()]
+    return JsonResponse(rows, safe=False)
+
+@csrf_exempt
+def run_query(request):
+    if request.method != 'POST':
+        return HttpResponseBadRequest("Only POST method is allowed.")
+
+    try:
+        data = json.loads(request.body)
+        query = data.get('query')
+    except json.JSONDecodeError:
+        return HttpResponseBadRequest("Invalid JSON")
+
+    if not query or not isinstance(query, str):
+        return HttpResponseBadRequest("Missing or invalid 'query'")
+
+    # Only allow queries that start with SELECT
+    lowered = query.strip().lower()
+    if not lowered.startswith('select'):
+        return HttpResponseBadRequest("Only read-only SELECT queries are allowed.")
+
+    with connection.cursor() as cursor:
+        try:
+            # Log each allowed query to a file
+            with open("query_log.txt", "a") as log:
+                log.write(f"{query.strip()}\n")
+            cursor.execute(query)
+            columns = [col[0] for col in cursor.description]
+            rows = [dict(zip(columns, row)) for row in cursor.fetchall()]
+        except Exception as e:
+            return HttpResponseBadRequest(f"Query error: {str(e)}")
+
     return JsonResponse(rows, safe=False)

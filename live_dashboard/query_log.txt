@@ -1,0 +1,3 @@
+SELECT * FROM clients LIMIT 5
+SELECT first_name, program FROM clients WHERE program = 'GPD'
+SELECT * FROM CLIENTS;

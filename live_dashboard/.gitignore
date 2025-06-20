@@ -7,3 +7,6 @@ __pycache__/
 
 # Ignore virtual environments (in case one exists here)
 venv/
+
+# Ignore test.html
+test.html

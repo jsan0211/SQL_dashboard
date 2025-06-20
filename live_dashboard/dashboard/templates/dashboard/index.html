@@ -1,21 +1,40 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Django AJAX Example</title>
+  <title>Django SQL Query Interface</title>
 </head>
 <body>
-  <h1>Live Data Table (AJAX + fetch)</h1>
-  <table id="data-table" border="1"></table>
+  <h1>SQL Query Interface</h1>
+
+  <form id="query-form">
+    <textarea id="sql-query" rows="4" cols="80" placeholder="Enter your SQL query here..."></textarea><br>
+    <button type="submit">Run Query</button>
+  </form>
+
+  <h2>Results:</h2>
+  <table id="results-table" border="1"></table>
 
   <script>
-    async function fetchData() {
-      const response = await fetch("/data/");
-      const data = await response.json();
-      const table = document.getElementById("data-table");
+    document.getElementById("query-form").addEventListener("submit", async (e) => {
+      e.preventDefault();
+      const query = document.getElementById("sql-query").value;
 
+      const response = await fetch("/runquery/", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify({ query })
+      });
+
+      const data = await response.json();
+      const table = document.getElementById("results-table");
       table.innerHTML = "";
 
-      if (data.length === 0) return;
+      if (data.length === 0) {
+        table.innerHTML = "<tr><td>No results</td></tr>";
+        return;
+      }
 
       const headerRow = table.insertRow();
       Object.keys(data[0]).forEach(key => {
@@ -31,10 +50,7 @@
           td.textContent = value;
         });
       });
-    }
-
-    fetchData(); // load on page load
-    setInterval(fetchData, 60000); // refresh every 60 seconds
+    });
   </script>
 </body>
 </html>
